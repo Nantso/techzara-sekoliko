@@ -1,0 +1,27 @@
+tz_dashboard:
+    resource: "@AdminBundle/Resources/config/routing/dashboard.yml"
+    prefix:   /
+
+tz_role:
+    resource: "@AdminBundle/Resources/config/routing/role.yml"
+    prefix:   /role
+
+tz_email_newsletter:
+    resource: "@AdminBundle/Resources/config/routing/email_newsletter.yml"
+    prefix:   /email-newsletter
+
+tz_message_newsletter:
+    resource: "@AdminBundle/Resources/config/routing/message_newsletter.yml"
+    prefix:   /message-newsletter
+
+tz_article:
+    resource: "@AdminBundle/Resources/config/routing/article.yml"
+    prefix:   /article
+
+tz_activite:
+  resource: "@AdminBundle/Resources/config/routing/activite.yml"
+  prefix:   /activite
+
+tz_programme:
+  resource: "@AdminBundle/Resources/config/routing/programme.yml"
+  prefix:   /programme
